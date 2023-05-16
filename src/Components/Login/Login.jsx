@@ -57,7 +57,7 @@ export default function Login() {
         <div className="col-lg-7">
         <div className='min-vh-100 d-flex justify-content-center align-items-center text-center signup-container'>
         <div className='bg-light bg-opacity-25 shadow w-100 mx-auto  p-5 rounded-2'>
-            <h1 className='fw-bold'>Sign Up Now</h1>
+            <h1 className='fw-bold'>Sign In Now</h1>
             <div className='pt-3'>
             <form onSubmit={formik.handleSubmit}>
               {regError && <p className='alert alert-danger'>{regError}</p>}
