@@ -38,7 +38,7 @@ export default function Registration() {
     last_name:Yup.string().required("last name is required").min(3 , "min length is 3 ").max(20 , "max length is 20"),
     email:Yup.string().required("email is required").email("email is invalid"),
     password:Yup.string().required("password is required").matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/),
-    age:Yup.number().required("first name is required").min(10 , "min age is 10 ").max(100 , "max age is 100"),
+    age:Yup.number().required("Age is required").min(10 , "min age is 10 ").max(100 , "max age is 100"),
   })
 
   let formik = useFormik({
