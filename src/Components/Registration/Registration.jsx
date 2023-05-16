@@ -86,7 +86,7 @@ export default function Registration() {
               {formik.errors.age && formik.touched.age? <p className='text-danger text-start'>{formik.errors.age}</p>:null}
 
               {isLoading ? <button type='submit' className='btn btn-info text-light w-100 rounded-2 mt-2'><i className='fa-solid fa-spinner fa-spin'></i></button>:<button type='submit' className='btn btn-info text-light w-100 rounded-2 mt-2'> Sign Up</button>}
-              <p className='pt-2'>Already have account <Link className='text-decoration-none' to='/login'>Login Now</Link></p>
+              <p className='pt-2'>Already have account ? <Link className='text-decoration-none' to='/login'>Login Now</Link></p>
             </form>
             </div>
         </div>
